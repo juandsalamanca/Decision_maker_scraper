@@ -4,7 +4,7 @@ from pydrive.drive import GoogleDrive
 from oauth2client.service_account import ServiceAccountCredentials
 
 # Load service account credentials
-SERVICE_ACCOUNT_FILE = "decision-maker-scraper-service_account.json"  # Upload this to Colab first
+SERVICE_ACCOUNT_FILE = "decision-maker-scraper-service_account.json" 
 scopes = ['https://www.googleapis.com/auth/drive']
 
 creds = ServiceAccountCredentials.from_json_keyfile_name(SERVICE_ACCOUNT_FILE, scopes)
