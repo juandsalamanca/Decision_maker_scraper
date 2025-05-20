@@ -3,8 +3,8 @@ from apify_client import ApifyClient
 
 
 # Replace with your actual API Key and Search Engine ID
-API_KEY = "AIzaSyDO1qAxTGhNB8JTI-mGyR956BBSQXhHPqw"
-CX = "a59b9bbe718954dec"
+API_KEY = "search_engine_api_key"
+CX = "search_engine_id"
 
 def get_linkedin_url(company_name):
     """
