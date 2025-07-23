@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.metrics import mean_squared_error
 import json
 
-openai_client = AzureOpenAI(api_key="db14efc60e704372abe4416b6ba048e1",  api_version="2024-02-01", azure_endpoint = "https://azo-iknow-ku-01.openai.azure.com/")
+openai_client = AzureOpenAI(api_key="",  api_version="2024-02-01", azure_endpoint = "")
 
 def get_embedding(text):
   response = openai_client.embeddings.create(
