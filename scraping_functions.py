@@ -29,7 +29,7 @@ def get_linkedin_url(company_name):
         return None
     
 
-ApifyKey='apify_api_znMc9b2OhMyPdUzfPLeMVsGQR25kIG1QQBin'
+ApifyKey='apify_api_key'
 appify_client = ApifyClient(ApifyKey)
 
 def get_company_linkedin_data(linkedin_url):
